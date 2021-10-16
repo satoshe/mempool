@@ -99,8 +99,8 @@ CREATE TABLE `elements_pegs` (
   `amount` bigint(20) NOT NULL,
   `txid` varchar(65) NOT NULL,
   `txindex` int(11) NOT NULL,
-  `bitcoinaddress` varchar(100) NOT NULL,
-  `bitcointxid` varchar(65) NOT NULL,
-  `bitcoinindex` int(11) NOT NULL,
+  `litecoinaddress` varchar(100) NOT NULL,
+  `litecointxid` varchar(65) NOT NULL,
+  `litecoinindex` int(11) NOT NULL,
   `final_tx` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
